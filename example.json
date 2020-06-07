@@ -1,0 +1,46 @@
+{
+    "clusters": [
+      {
+        "nodes": [
+          {
+            "node": {
+              "hostnames": {
+                "manage": [
+                  "instance-2"
+                ],
+                "storage": [
+                  "10.128.15.205"
+                ]
+              },
+              "zone": 1
+            },
+            "devices": [
+              {
+                "name": "/dev/sdb",
+                "destroydata": false
+              }
+            ]
+          },
+          {
+            "node": {
+              "hostnames": {
+                "manage": [
+                  "instance-3"
+                ],
+                "storage": [
+                  "10.128.15.210"
+                ]
+              },
+              "zone": 1
+            },
+            "devices": [
+              {
+                "name": "/dev/sdb",
+                "destroydata": false
+              }
+            ]
+          }          
+        ]
+      }
+    ]
+  }
